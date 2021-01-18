@@ -1,0 +1,427 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  scroll-behavior: smooth;
+}
+
+.header{
+  height: 120vh;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../assoc/boxing.jpg");
+  background-size: cover;
+
+}
+
+.nav-menu
+{
+  position: sticky;
+  top:0;
+  text-align: right;
+  background: rgba(0, 0, 0, 0.5);
+  line-height: 50px;
+  z-index: 555;
+
+}
+
+.menu{
+  position: relative;
+  list-style: none;
+  margin-right: 30px;
+}
+
+.menu li{
+  display: inline-block;
+
+}
+.menu ul
+{
+  list-style: none;
+  color: #f7f7f7;
+
+}
+.active{
+  background:#3db5ed;
+}
+
+.btn:hover
+{
+  color: #ED553D;
+}
+.btn{
+  text-decoration: none;
+  color: rgb(241, 241, 241);
+  text-transform: uppercase;
+  padding: 10px 30px;
+  transition: all ease 0.5s;
+}
+.donate{
+  float: left;
+  height: 30vh;
+  margin: 140px 50px;
+  position: relative;
+}
+
+.donate h1
+{
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.
+.donate-now
+{
+  float: left;
+  border: 1px solid #fff;
+  margin: 20px;
+}
+.btn2:hover ol{
+  display: block;
+
+}
+.nav-menu .fa {
+  margin-right: 8px;
+
+}
+.dropDown
+{
+  display: none;;
+  position: absolute;
+
+  }
+
+.menu ol li
+{
+  z-index: 555;
+  margin-top: -12px;
+  padding: 0;
+display: block;
+}
+
+.menu li:nth-child(2):hover .dropDown  {
+  display: block;
+
+}
+.dropDown ol
+{
+  text-align: left;
+}
+
+.info
+{
+   background-color: rgb(0,0,0.5);
+  height: 100vh;
+}
+.heading_one
+{
+  font-family: cursive;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-style: normal;
+  color: #fff;
+
+}
+.heading_two
+{
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+  font-size: 40px;
+  font-style: normal;
+  color: #fff;
+}
+.title{
+  padding-top: 30px;
+  border-bottom: 1px solid white;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.issue_png{
+  transform: translate(-50%,-50%);
+  width: 600px;
+  margin-top: 219px;
+  margin-left: 750px;
+  position: absolute;
+}
+}
+.text
+{
+  background: #00c99d;
+  height: 350px;
+  background-image:linear-gradient(rgba(80, 78, 78, 0.5),rgba(65, 61, 61, 0.5)),url("../assoc/bg2.jpg");
+}
+.text_one
+{
+    font-family: cursive;
+    height: 125px;
+    font-size: 50 px;
+    position: absolute;
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+    color:#fff;
+}
+.text_two
+{
+
+  text-align: center;
+  padding:100px;
+  font-family: monospace;
+  height: 20px;
+  color: #fff;
+}
+.dum1
+{
+background:#00c99d ;
+float: left;
+height:100px ;
+width:100px
+justify-content: center;
+display: flex;
+border-radius: 10px;
+}
+.abcd{
+  position: absolute;
+  left: 0;
+}
+.button{
+  text-decoration: none;
+  padding: 10px 40px;
+  background:#3db5ed ;
+  color: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
+  margin:10px;
+
+}
+.program{
+  padding-bottom: 50px;
+  height: auto;
+}
+.divider{
+  padding: 25px;
+    background-image: url('assoc/wave.png');
+    background-size: cover;
+
+}
+.headliness{
+  text-align: center;
+}
+.headliness h4{
+  margin-top: 50px;
+    font-weight: bold;
+}
+.headliness p{
+  padding: 10px;
+  display: block;
+  font-size: 10px;
+
+}
+.key-features{
+  float: left;
+  margin-top: 40px;
+  margin-left: 130px;
+}
+
+.icons{
+  background: #3db5ed;
+  float: left;
+  height: 60px;
+  width: 60px;
+  justify-content: center;
+  display: flex;
+
+}
+.key-features img{
+  height: 50%;
+  width: 50%;
+  align-self: center;
+}
+.key-info{
+  font-size: 10px;
+  padding-left: 80px;
+}
+.key-info h5{
+  font-weight: bold;
+}
+a:hover{
+  text-decoration: none;
+}
+.key-info a{
+  text-decoration: none;
+  font-weight: bold;
+}
+.highlight{
+  height: 400px;
+  background-image: linear-gradient(rgba(74, 81, 89, 0.5),rgba(74, 81, 89, 0.5)),
+  url('../assoc/bg2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+
+}
+
+.highlight h1{
+  font-weight: bold;
+  text-shadow: #3db5ed;
+}
+.highlight-data{
+  margin-top: 40px;
+}
+.orangetext{
+  color:#3db5ed ;
+  }
+  .bluetext
+  {
+    color:#3db5ed
+  }
+  .harder{
+    color: #3db5ed;
+    font-weight: bolder:
+  }
+  .classes{
+  height: 500px;
+  margin-left: 670px;
+  margin-top: 70px;
+
+  }
+  .text4{
+    color: #3db5ed;
+    font-weight: bolder;
+  }
+.text3
+{
+  text-align: center;
+  margin-top: 50px;
+    font-weight: bold;
+}
+.imagefor{
+  height: 350px;
+  width: 95%;
+}
+.ulorderlist{
+  list-style: none;
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.ulorderlist li{
+  margin-bottom: 30px;
+
+}
+.btn-cyan{
+  background-color: #ffffff;
+  box-shadow: 0 0 5px rgb(94, 90, 90);
+  color: #3db5ed;
+}
+.text23{
+  font-size: 10px;
+}
+.mango{
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image:linear-gradient(rgba(63, 59, 59, 0.5),rgba(148, 141, 141, 0.5)),url("../assoc/bg2.jpg");
+  height: 100%px;
+}
+.back{
+  color: #fff;
+}
+.white{
+  color: #fff;
+}
+.mango table tr td {
+  border: 1px solid #fff;
+  color: #fff;
+  height: 50px;
+  width: 100x;
+}
+
+.table-resposive{
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 20px;
+}
+.weeks{
+  font-size: 20px;
+  margin-top: 100px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 500px;
+}
+.redbro{
+  color: #3db5ed;
+}
+.black{
+  color: black;
+}
+.contact-form{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 90%;
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: yellow;
+}
+.contact-form .btnContact {
+    width: 100%;
+    border: none;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+  }
+
+}
+#contact{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../assoc/boxing.jpg");
+    background-color:#f1f1f1;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contact .well{
+    margin-top:30px;
+    border-radius:0;
+}
+
+#contact .form-control{
+    border-radius: 0;
+    border:2px solid #1e1e1e;
+}
+
+#contact button{
+    border-radius:0;
+    border:2px solid #1e1e1e;
+}
+
+#contact .row{
+    margin-bottom:30px;
+}
+
+@media (max-width: 768px) {
+    #contact iframe {
+        margin-bottom: 15px;
+    }
+
+}
